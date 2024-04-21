@@ -1,0 +1,234 @@
+
+
+
+
+.open-sans-large {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 45px;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+.open-sans-medium {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 16px;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+.open-sans-small {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 14px;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+.open-sans-x-small {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 10px;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+/*BODY STYLE*/
+
+.father{
+   /* background-color: gold;*/
+    display: flex;
+}
+
+
+/*ASIDE STYLE*/
+
+.navbar {
+   /* background-color:azure;*/
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center; 
+    flex-wrap: nowrap; 
+
+}
+.first {
+   /* background-color: burlywood;*/
+    display: flex;
+}
+
+/*.second {
+    background-color: cornflowerblue;
+}*/
+
+.box {
+   /* background-color:darkcyan;*/
+     display: flex;
+     justify-content: space-between;
+     border-top: #E8EBE4 solid 2px;
+ }
+
+ .perfil-1 {
+    display: flex;
+   /* background-color:aquamarine;*/
+    align-items: center;
+    width: 80%;
+}
+
+.avatar{
+    /* definición del tamaño y forma del círculo */
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: #E8EBE4 solid 2PX;
+}
+
+.perfil-name {
+    /*background-color: cornflowerblue;*/
+    font-weight:normal;
+    font-size:large;
+}
+
+.boxchat-1 {
+   /* background-color:black;*/
+    font-weight: 300;
+    font-size:x-small;
+    color: #828485;
+}
+
+.options {
+    display: flex;
+   /* background-color:deepskyblue;*/
+    width: 27%;
+    color: #828485;
+    align-items: center;
+    justify-content:space-around;
+    font-size:x-large;
+}
+
+.icon-1 {
+    display: flex;
+}
+
+.icon-2 {
+    display: flex;
+}
+
+.chat-list{
+    /*background-color: blanchedalmond;*/
+    list-style: none;
+    height: 72vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.perfil {
+    display: flex;
+   /* background-color: aqua; */
+    align-items: center;
+}
+.perfil-text{
+   /* background-color: coral;*/
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+
+.perfil-description {
+    /*background-color: #A491D2;*/
+    font-weight:normal;
+    font-size: small;
+}
+
+
+.box-chat {
+    /*background-color: indianred;*/
+    display: flex;
+    flex-direction: column;
+    border-top: #E8EBE4 solid 2px;
+    justify-content: center;
+}
+
+.btn-primary {
+    background-color: #A491D2;
+    border: #A491D2;
+    font-size:large;
+    width: 15vw;
+    height: 4vw;
+}
+
+/*MAIN STYLE*/
+
+.content-main {
+    display: flex;
+    flex-direction: column;
+    background-color:whitesmoke ;
+    height: 100vh;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    border-left:  #E8EBE4 solid 2px;;
+}
+
+.elements-main {
+   /* background-color: aquamarine;*/
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.img-main{
+   /*background-color: darkseagreen;*/
+    display: flex;
+    justify-content: center;
+    height: 40vh;
+    width: 25vw;
+}
+
+.text-main {
+    /*background-color: darkseagreen;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*.tittle-main {
+    background-color: antiquewhite;
+}*/
+
+span{
+    font-weight: bolder;
+}
