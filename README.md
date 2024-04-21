@@ -1,7 +1,7 @@
 # Proyecto ContactMe
 
 ## Descripción
-Proyecto de maquetación para sistema de mensajeríacon flexbox.
+Proyecto de maquetación para sistema de mensajería con flexbox.
 
 ## Links
 
